@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.information {
+    font-family: 'Poppins', sans-serif;
+    padding: 80px;
+} 
+
+section {
+    /* height: 500px; */
+    background-color: white;
+    /* border: solid black 1px; */
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;  
+    color: white;   
+    font-size: 40px;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+ font-size: 22px;
+ font-weight: 300;
+}
+
+.ul2 {
+    display: flex;
+    list-style-type: none;
+    width: 375px;
+    justify-content: space-around;
+    font-size: 30px;
+    max-width: 480px;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.li2 {
+    text-decoration: none;
+}
+
+li {
+    font-size: 22px;  
+    font-weight: 300; 
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+    /* padding: 80px; */
+}
+
+p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* .wrap {
+    float: right; 
+    margin: 5px;
+   } */
+
+.subtext {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #f18662;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+
+}
+
+.socials {
+    padding-bottom: 150px;
+
+}
+
+.logo {
+    height: 80px; 
+    width: 30px;
+}
+
+.social {
+    margin: 10px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 30px; */
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+/* @media only screen and (max-width: 500px) {
+    .sub-section-alternative {
+       flex-shrink: 1;
+    }
+} */
+
+.headshot {
+    /* width: 306px; */
+    /* height: 408px; */
+    /* width: 204px;
+    height: 272px; */
+    /* border-radius: 150px; */
+    width: 225px;
+    height: 223px;
+    border-radius: 180px;
+    padding: 50px;
+    align-items: normal;
+}
+
+/* .headshot-container {
+    display: flex;
+} */
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+.project-container {
+    /* display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px; */
+    display: flex;
+    justify-content: space-around;
+    /* justify-self: space-around; */
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 400px) {
+    .sub-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* @media only screen and (max-width:400px){
+    .project-card {
+        width: 300px;
+        height: 500px;
+        box-shadow: 5px 5px 20px rgb(197, 195, 195);
+        margin: 10px;
+    }
+} */
+
+@media only screen and (max-width: 400px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        /* justify-content: space-around;
+        padding-bottom: 25px; */
+     
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.v2 {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.project-class {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+   display: none;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size:30px ;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0;
+    }
+
+    .ul2 {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0;
+    }
+
+        
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
+
+    .logo {
+        display: none;
+    }
+}
